@@ -1,0 +1,59 @@
+.FireworksRed1 {
+  @media (min-width: 1024px) {
+    display: block;
+    position: absolute;
+    top: -20px;
+    width: 400px;
+  }
+  display: none;
+}
+
+.FireworksRed2 {
+  @media (min-width: 1024px) {
+    right: 0;
+    width: 200px;
+    top: auto;
+  }
+  position: absolute;
+  right: -40px;
+  top: 220px;
+  width: 120px;
+}
+
+.FireworksYellow1 {
+  @media (min-width: 1024px) {
+    right: 50px;
+    bottom: 20px;
+    width: 350px;
+  }
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  width: 180px;
+}
+
+.FireworksYellow2 {
+  @media (min-width: 1024px) {
+    left: 200px;
+    top: auto;
+    bottom: 40px;
+    width: 300px;
+  }
+  position: absolute;
+  left: 100px;
+  top: 40px;
+  width: 160px;
+}
+
+.FireworksYellow3 {
+  @media (min-width: 1024px) {
+    left: 100px;
+    top: auto;
+    bottom: 40px;
+    width: 200px;
+  }
+  position: absolute;
+  left: 20px;
+  top: 100px;
+  width: 120px;
+}

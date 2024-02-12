@@ -1,4 +1,5 @@
-import type { Config } from 'tailwindcss'
+import type {Config} from 'tailwindcss'
+import defaultTheme from 'tailwindcss/defaultTheme'
 
 const config: Config = {
   content: [
@@ -8,10 +9,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        sub: 'hsla(0, 0%, 100%, 0.2)',
+        footer: '#161616',
+      },
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'rectangle': "url('/rectangle.png')",
+      },
+      fontFamily: {
+        body: ['var(--font-oswald)', 'var(--font-noto-sans-jp)', ...defaultTheme.fontFamily.sans],
+        noto: ['var(--font-noto-sans-jp)', ...defaultTheme.fontFamily.sans],
       },
     },
   },
