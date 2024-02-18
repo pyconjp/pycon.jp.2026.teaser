@@ -1,11 +1,13 @@
 .FireworksRed1 {
   @media (min-width: 1024px) {
     display: block;
-    position: absolute;
     top: -20px;
     width: 400px;
   }
-  display: none;
+  position: absolute;
+  top: -120px;
+  left: -80px;
+  width: 300px;
 }
 
 .FireworksRed2 {

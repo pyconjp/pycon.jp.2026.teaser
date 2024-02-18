@@ -1,7 +1,9 @@
+import {Conference} from "@/app/variables";
+
 export default function Footer() {
   return (
     <footer className="bg-footer lg:h-72 h-[420px] font-noto">
-      <div className="flex justify-center py-10 sm:py-16">
+      <div className="flex justify-center py-10 sm:py-16 mx-6">
         <div className="flex flex-col max-[88%]">
           <div className="sm:flex">
             <a
@@ -19,7 +21,7 @@ export default function Footer() {
                 主催:一般社団法人 PyCon JP Association
               </p>
               <p className="text-sm">
-                PyCon JP 20XX hosted by PyCon JP is produced by the
+                {`${Conference.name} hosted by PyCon JP is produced by the`}
                 <a
                   href="https://www.pycon.jp/committee/english.html"
                   target="_blank"
@@ -29,8 +31,7 @@ export default function Footer() {
                 </a>.
               </p>
               <p className="text-sm">
-                For the latest information and contact information for PyCon JP 20XX,
-                please visit
+                {`For the latest information and contact information for ${Conference.name}, please visit`}
                 <a
                   href="https://pyconjp.blogspot.com/"
                   target="_blank"

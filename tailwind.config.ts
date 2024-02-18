@@ -12,6 +12,7 @@ const config: Config = {
       colors: {
         sub: 'hsla(0, 0%, 100%, 0.2)',
         footer: '#161616',
+        primary: '#A98849',
       },
       backgroundImage: {
         'rectangle': "url('/rectangle.png')",
@@ -20,6 +21,9 @@ const config: Config = {
         body: ['var(--font-oswald)', 'var(--font-noto-sans-jp)', ...defaultTheme.fontFamily.sans],
         noto: ['var(--font-noto-sans-jp)', ...defaultTheme.fontFamily.sans],
       },
+      transitionProperty: {
+        right: 'right',
+      }
     },
   },
   plugins: [],

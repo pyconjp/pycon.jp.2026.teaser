@@ -1,6 +1,8 @@
+import {Conference} from "@/app/variables";
+
 export default function ContactSection() {
   return (
-    <div className="py-24 h-[500px]">
+    <div className="py-24 h-[500px] mx-6 lg:mx-0">
       <div className="text-center">
         <p className="text-2xl">Contact</p>
         <div className="mt-10">
@@ -9,7 +11,7 @@ export default function ContactSection() {
             <p>何卒お待ちいただけますようにお願いします。</p>
           </div>
           <div className="mt-4 text-sm">
-            <p>PyCon JP 20XX is organized by volunteers, so it may take a week for us to reply to inquiries.</p>
+            <p>{`${Conference.name} is organized by volunteers, so it may take a week for us to reply to inquiries.`}</p>
             <p>Thank you for your patience.</p>
           </div>
         </div>
