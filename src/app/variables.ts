@@ -18,10 +18,10 @@ export type MenuItem = {
 
 export const Conference = {
   name: 'PyCon JP 2024',
-  dateJa: 'XXXXXXXXXX',
-  dateEn: 'YYYYYYYYYY',
-  locationJa: 'xxxxxxxxxx',
-  locationEn: 'yyyyyyyyyy',
+  dateJa: '2024年09月27日-2024年09月29日',
+  dateEn: 'September 27-29, 2024',
+  locationJa: 'TOC有明コンベンションホール',
+  locationEn: 'TOC Ariake Convention Hall',
 }
 
 export const Buttons: Button[] = [
