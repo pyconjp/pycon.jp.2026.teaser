@@ -33,7 +33,7 @@ export const Buttons: Button[] = [
   },
   {
     labelEn: 'We need volunteers',
-    labelJa: 'スタッフ募集中！',
+    labelJa: '主催メンバー(スタッフ)募集中！',
     status: 'comingSoon',
     url: null,
   },
