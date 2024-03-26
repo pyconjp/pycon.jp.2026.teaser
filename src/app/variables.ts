@@ -27,19 +27,19 @@ export const Conference = {
 export const Buttons: Button[] = [
   {
     labelEn: 'Won\'t you be a speaker?',
-    labelJa: '登壇者募集中！',
+    labelJa: '登壇者募集(準備中)',
     status: 'comingSoon',
     url: null,
   },
   {
     labelEn: 'We need volunteers',
     labelJa: '主催メンバー(スタッフ)募集中！',
-    status: 'comingSoon',
-    url: null,
+    status: 'available',
+    url: 'https://docs.google.com/forms/d/e/1FAIpQLScpeebt9ZleMYAr_cq68vOIpFEqUKs5l424mpUgJgqwacbw1g/viewform',
   },
   {
     labelEn: 'Please be our sponsor!',
-    labelJa: 'スポンサー募集中！',
+    labelJa: 'スポンサー募集(準備中)',
     status: 'comingSoon',
     url: null,
   },
