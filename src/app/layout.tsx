@@ -30,7 +30,7 @@ export const metadata: Metadata = {
 export default function RootLayout({children,}: { children: React.ReactNode }) {
   return (
     <html lang="ja" className={`${inter.variable} ${notojp.variable} ${oswald.variable}`}>
-    <body className='font-body bg-rectangle'>
+    <body className='font-body bg-rectangle text-white'>
     {children}
     </body>
     </html>
