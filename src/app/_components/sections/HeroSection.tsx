@@ -13,11 +13,11 @@ export default function HeroSection() {
         <div className='z-10 w-16 border-b-2 border-white my-5'>
         </div>
         <div className='z-10'>
-          <p className='text-2xl'>{`Conference: ${Conference.dateEn}`}</p>
+          <p className='text-2xl'>{`Date: ${Conference.dateEn}`}</p>
           <p className='text-2xl'>{`Venue: ${Conference.locationEn}`}</p>
         </div>
         <div className='pt-3 z-10'>
-          <p className='text-sm'>{`カンファレンス: ${Conference.dateJa}`}</p>
+          <p className='text-sm'>{`日程: ${Conference.dateJa}`}</p>
           <p className='text-sm'>{`会場: ${Conference.locationJa}`}</p>
         </div>
       </div>
