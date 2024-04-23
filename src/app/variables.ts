@@ -27,9 +27,9 @@ export const Conference = {
 export const Buttons: Button[] = [
   {
     labelEn: 'Won\'t you be a speaker?',
-    labelJa: '登壇者募集(準備中)',
-    status: 'comingSoon',
-    url: null,
+    labelJa: '登壇者募集',
+    status: 'available',
+    url: 'https://pretalx.com/pyconjp2024/cfp',
   },
   {
     labelEn: 'We need volunteers',
