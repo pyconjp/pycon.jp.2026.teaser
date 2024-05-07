@@ -3,10 +3,13 @@ export type Button = ({
   labelJa: string,
 } & ({
   status: 'comingSoon',
-  url: null,
+  links: null,
 } | {
   status: 'available' | 'closed',
-  url: string,
+  links: {
+    url: string,
+    label: string,
+  }[],
 }));
 
 export type MenuItem = {
@@ -29,19 +32,38 @@ export const Buttons: Button[] = [
     labelEn: 'Won\'t you be a speaker?',
     labelJa: '登壇者募集中',
     status: 'available',
-    url: 'https://pretalx.com/pyconjp2024/cfp',
+    links: [
+      {
+        url: 'https://pretalx.com/pyconjp2024/cfp',
+        label: 'See More',
+      }
+    ],
   },
   {
     labelEn: 'We need volunteers',
     labelJa: '主催メンバー(スタッフ)募集中！',
     status: 'available',
-    url: 'https://docs.google.com/forms/d/e/1FAIpQLScpeebt9ZleMYAr_cq68vOIpFEqUKs5l424mpUgJgqwacbw1g/viewform',
+    links: [
+      {
+        url: 'https://docs.google.com/forms/d/e/1FAIpQLScpeebt9ZleMYAr_cq68vOIpFEqUKs5l424mpUgJgqwacbw1g/viewform',
+        label: 'See More',
+      }
+    ],
   },
   {
     labelEn: 'Please be our sponsor!',
-    labelJa: 'スポンサー募集(準備中)',
-    status: 'comingSoon',
-    url: null,
+    labelJa: 'スポンサー募集中',
+    status: 'available',
+    links: [
+      {
+        url: 'https://pyconjp.blogspot.com/2024/04/call-for-sponsorsip-ja.html',
+        label: 'See More (日本語)',
+      },
+      {
+        url: 'https://pyconjp.blogspot.com/2024/04/call-for-sponsorship-en.html',
+        label: 'See More (English)',
+      }
+    ],
   },
 ]
 
@@ -52,7 +74,7 @@ export const MenuItems: MenuItem[] = [
   },
   {
     name: 'VOLUNTEER',
-    url: null,
+    url: 'https://docs.google.com/forms/d/e/1FAIpQLScpeebt9ZleMYAr_cq68vOIpFEqUKs5l424mpUgJgqwacbw1g/viewform',
   },
   {
     name: 'PROPOSAL',
