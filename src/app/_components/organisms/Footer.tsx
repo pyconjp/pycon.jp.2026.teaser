@@ -31,7 +31,7 @@ export default function Footer() {
                 </a>.
               </p>
               <p className="text-sm">
-                {`For the latest information and contact information for ${Conference.name}, please visit`}
+                {`For the latest information and contact information for ${Conference.name}, please visit `}
                 <a
                   href="https://pyconjp.blogspot.com/"
                   target="_blank"
