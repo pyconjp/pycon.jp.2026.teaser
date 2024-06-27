@@ -21,7 +21,7 @@ export default function Footer() {
                 主催:一般社団法人 PyCon JP Association
               </p>
               <p className="text-sm">
-                {`${Conference.name} hosted by PyCon JP is produced by the`}
+                {`${Conference.name} hosted by PyCon JP is produced by the `}
                 <a
                   href="https://www.pycon.jp/committee/english.html"
                   target="_blank"
