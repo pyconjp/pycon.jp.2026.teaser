@@ -34,7 +34,7 @@ export const Buttons: Button[] = [
     status: 'available',
     links: [
       {
-        url: 'https://www.pycon.jp/',
+        url: 'https://pyconjp.connpass.com/event/324211',
         label: 'See More',
       }
     ],
