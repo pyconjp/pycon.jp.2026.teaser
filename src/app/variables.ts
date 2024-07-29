@@ -97,7 +97,7 @@ export const MenuItems: MenuItem[] = [
   },
   {
     name: 'TICKET',
-    url: null,
+    url: 'https://pyconjp.connpass.com/event/324211/',
   },
   {
     name: 'REVIEWER',
