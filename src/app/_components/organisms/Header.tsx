@@ -62,10 +62,10 @@ export default function Header() {
             </ul>
           </nav>
           <div className='flex items-center justify-center mt-8 gap-6 w-full'>
-            <a href='https://www.facebook.com/PyConJP'>
+            <a href='https://www.facebook.com/PyConJP' target='_blank' rel='noopener noreferrer'>
               <FontAwesomeIcon icon={faFacebook} className='w-6 h-6'/>
             </a>
-            <a href='https://twitter.com/pyconjapan'>
+            <a href='https://twitter.com/pyconjapan' target='_blank' rel='noopener noreferrer'>
               <FontAwesomeIcon icon={faXTwitter} className='w-6 h-6'/>
             </a>
           </div>
