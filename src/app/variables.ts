@@ -21,8 +21,8 @@ export type MenuItem = {
 
 export const Conference = {
   name: 'PyCon JP 2025',
-  dateJa: '2025年09月26日-2025年09月27日',
-  dateEn: 'September 26-27, 2025',
+  dateJa: '2025年09月26日-2025年09月27日 (カンファレンス)',
+  dateEn: 'September 26-27, 2025 (Conference Days)',
   locationJa: '広島国際会議場',
   locationEn: 'International Conference Center Hiroshima',
 }
