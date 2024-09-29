@@ -19,11 +19,11 @@ export default function SubSection() {
       </div>
 
       <div
-        className="flex flex-wrap mx-auto gap-x-64 lg:gap-y-10 w-4/6 items-center justify-items-center justify-center content-center grid-cols-1 sm:grid-cols-2 mb-20 sm:mb-32"
+        className="grid lg:grid-cols-2 grid-cols-1 mx-auto gap-x-64 lg:gap-y-10 w-4/6 sm:grid-cols-2 mb-20 sm:mb-32"
       >
         {
           Buttons.map((button, index) => (
-            <div className="mt-10 lg:mt-0" key={index}>
+            <div className="mt-10 lg:mt-0 flex flex-col items-center justify-items-center justify-center content-center" key={index}>
               <div className="mb-4">
                 <p className="pt-5 text-2xl text-center">{button.labelEn}</p>
                 <p className="pt-2 text-sm text-center">{button.labelJa}</p>

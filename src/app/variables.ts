@@ -20,72 +20,48 @@ export type MenuItem = {
 // ここから下を編集する
 
 export const Conference = {
-  name: 'PyCon JP 2024',
-  dateJa: '2024年09月27日-2024年09月29日',
-  dateEn: 'September 27-29, 2024',
-  locationJa: 'TOC有明コンベンションホール',
-  locationEn: 'TOC Ariake Convention Hall',
+  name: 'PyCon JP 2025',
+  dateJa: '2025年09月26日-2025年09月27日',
+  dateEn: 'September 26-27, 2025',
+  locationJa: '広島国際会議場',
+  locationEn: 'International Conference Center Hiroshima',
 }
 
 export const Buttons: Button[] = [
   {
-    labelEn: 'Tickets now on sale',
-    labelJa: 'チケット販売中！',
-    status: 'available',
-    links: [
-      {
-        url: 'https://pyconjp.connpass.com/event/324211',
-        label: 'See More',
-      }
-    ],
+    labelEn: 'Tickets',
+    labelJa: '参加チケット',
+    status: 'comingSoon',
+    links: null,
   },
   {
     labelEn: 'Won\'t you be a speaker?',
     labelJa: '登壇者募集',
-    status: 'closed',
-    links: [
-      {
-        url: 'https://pretalx.com/pyconjp2024/cfp',
-        label: 'Closed',
-      }
-    ],
+    status: 'comingSoon',
+    links: null,
   },
   {
     labelEn: 'We need volunteers',
-    labelJa: '主催メンバー(スタッフ)募集中！',
-    status: 'available',
-    links: [
-      {
-        url: 'https://docs.google.com/forms/d/e/1FAIpQLScpeebt9ZleMYAr_cq68vOIpFEqUKs5l424mpUgJgqwacbw1g/viewform',
-        label: 'See More',
-      }
-    ],
+    labelJa: '主催メンバー(スタッフ)募集',
+    status: 'comingSoon',
+    links: null,
   },
   {
     labelEn: 'Please be our sponsor!',
-    labelJa: 'スポンサー募集中',
-    status: 'available',
-    links: [
-      {
-        url: 'https://pyconjp.blogspot.com/2024/04/call-for-sponsorsip-ja.html',
-        label: 'See More (日本語)',
-      },
-      {
-        url: 'https://pyconjp.blogspot.com/2024/04/call-for-sponsorship-en.html',
-        label: 'See More (English)',
-      }
-    ],
+    labelJa: 'スポンサー募集',
+    status: 'comingSoon',
+    links: null,
   },
 ]
 
 export const MenuItems: MenuItem[] = [
   {
     name: 'NEWS',
-    url: 'https://pyconjp.blogspot.com/search/label/pyconjp2024',
+    url: 'https://pyconjp.blogspot.com/search/label/pyconjp2025',
   },
   {
     name: 'VOLUNTEER',
-    url: 'https://docs.google.com/forms/d/e/1FAIpQLScpeebt9ZleMYAr_cq68vOIpFEqUKs5l424mpUgJgqwacbw1g/viewform',
+    url: null,
   },
   {
     name: 'PROPOSAL',
@@ -97,7 +73,7 @@ export const MenuItems: MenuItem[] = [
   },
   {
     name: 'TICKET',
-    url: 'https://pyconjp.connpass.com/event/324211/',
+    url: null,
   },
   {
     name: 'REVIEWER',
@@ -105,6 +81,6 @@ export const MenuItems: MenuItem[] = [
   },
   {
     name: 'CODE OF CONDUCT',
-    url: 'https://drive.google.com/file/d/1iNF7VvDCd_gWDsSn2i5U8FB1IQWkWOM9/view',
+    url: 'https://www.pycon.jp/policies/code-of-conduct.html',
   },
 ]
