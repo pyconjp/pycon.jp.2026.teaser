@@ -43,8 +43,10 @@ export const Buttons: Button[] = [
   {
     labelEn: 'We need volunteers',
     labelJa: '主催メンバー(スタッフ)募集',
-    status: 'comingSoon',
-    links: null,
+    status: 'available',
+    links: [
+      {label: 'See More', url: 'https://pyconjp.blogspot.com/2024/12/call-for-organizing-members-ja.html'}
+    ],
   },
   {
     labelEn: 'Please be our sponsor!',
@@ -61,7 +63,7 @@ export const MenuItems: MenuItem[] = [
   },
   {
     name: 'VOLUNTEER',
-    url: null,
+    url: 'https://pyconjp.blogspot.com/2024/12/call-for-organizing-members-ja.html',
   },
   {
     name: 'PROPOSAL',
