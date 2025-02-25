@@ -17,10 +17,12 @@ export default function ContactSection() {
         </div>
         <div className="flex justify-center mt-7">
           <a
-            href="mailto:pyconjp@pycon.jp"
+            href="https://pyconjp.atlassian.net/servicedesk/customer/portal/5"
             className="text-white bg-auto border border-white rounded-full en-regular-font hover:text-black hover:bg-white contact-button h-12 w-[280px] py-3"
+            target='_blank'
+            rel='noopener noreferrer'
           >
-            <span>pyconjp@pycon.jp</span>
+            <span>Inquiry Form</span>
           </a>
         </div>
       </div>
