@@ -30,29 +30,31 @@ export const Conference = {
 export const Buttons: Button[] = [
   {
     labelEn: 'Tickets',
-    labelJa: '参加チケット',
+    labelJa: '参加チケット\n準備中です',
     status: 'comingSoon',
     links: null,
   },
   {
     labelEn: 'Won\'t you be a speaker?',
-    labelJa: '登壇者募集',
+    labelJa: '登壇者募集\n準備中です',
     status: 'comingSoon',
     links: null,
   },
   {
     labelEn: 'We need volunteers',
-    labelJa: '主催メンバー(スタッフ)募集',
+    labelJa: '主催メンバー(スタッフ)募集\n詳しくは下のボタンから',
     status: 'available',
     links: [
       {label: 'See More', url: 'https://pyconjp.blogspot.com/2024/12/call-for-organizing-members-ja.html'}
     ],
   },
   {
-    labelEn: 'Please be our sponsor!',
-    labelJa: 'スポンサー募集',
-    status: 'comingSoon',
-    links: null,
+    labelEn: 'Please be our sponsor!\n(Coming Soon)',
+    labelJa: 'スポンサー募集を準備中です\nお問い合わせは下のボタンから',
+    status: 'available',
+    links: [
+      {label: 'Contact Us', url: 'mailto:2025-sponsor@pyconjp.atlassian.net'}
+    ],
   },
 ]
 

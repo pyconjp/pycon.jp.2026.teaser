@@ -1,11 +1,5 @@
 import LinkButton from "@/app/_components/elements/LinkButton";
-import {Button, Buttons} from "@/app/variables";
-
-const STATUS_LABEL: { [key in Button["status"]]: string } = {
-  comingSoon: "準備中です",
-  available: "詳しくは下のボタンから",
-  closed: "終了しました",
-}
+import {Buttons} from "@/app/variables";
 
 export default function SubSection() {
   return (
@@ -25,9 +19,8 @@ export default function SubSection() {
           Buttons.map((button, index) => (
             <div className="mt-10 lg:mt-0 flex flex-col items-center justify-items-center justify-center content-center" key={index}>
               <div className="mb-4">
-                <p className="pt-5 text-2xl text-center">{button.labelEn}</p>
-                <p className="pt-2 text-sm text-center">{button.labelJa}</p>
-                <p className="pt-1 text-sm text-center">{STATUS_LABEL[button.status]}</p>
+                <p className="pt-5 text-2xl text-center whitespace-break-spaces">{button.labelEn}</p>
+                <p className="pt-2 text-sm text-center whitespace-break-spaces">{button.labelJa}</p>
               </div>
               <LinkButton button={button}/>
             </div>
