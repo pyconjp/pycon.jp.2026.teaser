@@ -6,11 +6,11 @@ export default function HeroSection() {
   return (
     <div className='relative h-[calc(100vh_-_64px)]'>
       <BackgroundImages/>
-      <div className='flex flex-col justify-center items-center lg:pt-36 pt-24'>
+      <div className='flex flex-col justify-center items-center lg:pt-36 pt-10'>
         <div className='absolute w-64 h-64 lg:w-80 lg:h-80 left-0 right-0 m-auto bg-sub rotate-45'/>
         <h1 className='z-10 text-6xl mt-12'>{Conference.name}</h1>
         <div className='z-10 lg:text-4xl text-2xl'>We Are Happy to See You Again!</div>
-        <div className='z-10 w-16 border-b-2 border-white my-5'>
+        <div className='z-10 w-16 border-b-2 border-white lg:my-5 my-3'>
         </div>
         <div className='z-10 lg:text-2xl text-xl'>
           <div className='flex lg:flex-row flex-col justify-between'>
@@ -26,7 +26,7 @@ export default function HeroSection() {
             <p>{Conference.locationEn}</p>
           </div>
         </div>
-        <div className='pt-4 z-10 text-sm'>
+        <div className='pt-4 z-10 lg:text-sm text-xs'>
           <p>{Conference.conferenceDateJa}</p>
           <p>{Conference.sprintDateJa}</p>
           <p>{Conference.locationJa}</p>
