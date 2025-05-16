@@ -12,13 +12,24 @@ export default function HeroSection() {
         <div className='z-10 lg:text-4xl text-2xl'>We Are Happy to See You Again!</div>
         <div className='z-10 w-16 border-b-2 border-white my-5'>
         </div>
-        <div className='z-10'>
-          <p className='text-2xl'>{`Date: ${Conference.dateEn}`}</p>
-          <p className='text-2xl'>{`Venue: ${Conference.locationEn}`}</p>
+        <div className='z-10 lg:text-2xl text-xl'>
+          <div className='flex lg:flex-row flex-col justify-between'>
+            <p>Date:&nbsp;</p>
+            <p>{Conference.conferenceDateEn}</p>
+          </div>
+          <div className='flex lg:flex-row flex-col justify-between'>
+            <p/>
+            <p>{Conference.sprintDateEn}</p>
+          </div>
+          <div className='flex lg:flex-row flex-col justify-between mt-2'>
+            <p>Venue:&nbsp;</p>
+            <p>{Conference.locationEn}</p>
+          </div>
         </div>
-        <div className='pt-3 z-10'>
-          <p className='text-sm'>{`日程: ${Conference.dateJa}`}</p>
-          <p className='text-sm'>{`会場: ${Conference.locationJa}`}</p>
+        <div className='pt-4 z-10 text-sm'>
+          <p>{Conference.conferenceDateJa}</p>
+          <p>{Conference.sprintDateJa}</p>
+          <p>{Conference.locationJa}</p>
         </div>
       </div>
 
