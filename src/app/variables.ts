@@ -51,11 +51,11 @@ export const Buttons: Button[] = [
     ],
   },
   {
-    labelEn: 'Please be our sponsor!\n(Coming Soon)',
-    labelJa: 'スポンサー募集を準備中です\nお問い合わせは下のボタンから',
+    labelEn: 'Please be our sponsor!',
+    labelJa: 'スポンサー募集\n詳しくは下のボタンから',
     status: 'available',
     links: [
-      {label: 'Contact Us', url: 'mailto:2025-sponsor@pyconjp.atlassian.net'}
+      {label: 'See More', url: 'https://docs.google.com/forms/d/e/1FAIpQLSfCVLHY3zMR1z7YGy8aRyJiSa64pnVpById6UjNDiwD5K0VmQ/viewform'}
     ],
   },
 ]
