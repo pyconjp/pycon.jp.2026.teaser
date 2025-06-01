@@ -37,12 +37,6 @@ export const Buttons: Button[] = [
     links: null,
   },
   {
-    labelEn: 'Won\'t you be a speaker?',
-    labelJa: '登壇者募集\n準備中です',
-    status: 'comingSoon',
-    links: null,
-  },
-  {
     labelEn: 'Call for Proposals',
     labelJa: 'プロポーザル募集\n詳しくは下のボタンから',
     status: 'available',
