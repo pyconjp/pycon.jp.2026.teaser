@@ -77,7 +77,7 @@ export const MenuItems: MenuItem[] = [
   },
   {
     name: 'SPONSOR',
-    url: null,
+    url: 'https://docs.google.com/forms/d/e/1FAIpQLSfCVLHY3zMR1z7YGy8aRyJiSa64pnVpById6UjNDiwD5K0VmQ/viewform',
   },
   {
     name: 'TICKET',
