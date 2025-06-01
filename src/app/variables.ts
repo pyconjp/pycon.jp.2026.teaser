@@ -37,10 +37,12 @@ export const Buttons: Button[] = [
     links: null,
   },
   {
-    labelEn: 'Won\'t you be a speaker?',
-    labelJa: '登壇者募集\n準備中です',
-    status: 'comingSoon',
-    links: null,
+    labelEn: 'Call for Proposals',
+    labelJa: 'プロポーザル募集\n詳しくは下のボタンから',
+    status: 'available',
+    links: [
+      {label: 'See More', url: 'https://pretalx.com/pycon-jp-2025/cfp'}
+    ],
   },
   {
     labelEn: 'We need volunteers',
@@ -71,11 +73,11 @@ export const MenuItems: MenuItem[] = [
   },
   {
     name: 'PROPOSAL',
-    url: null,
+    url: 'https://pretalx.com/pycon-jp-2025/cfp',
   },
   {
     name: 'SPONSOR',
-    url: null,
+    url: 'https://docs.google.com/forms/d/e/1FAIpQLSfCVLHY3zMR1z7YGy8aRyJiSa64pnVpById6UjNDiwD5K0VmQ/viewform',
   },
   {
     name: 'TICKET',
