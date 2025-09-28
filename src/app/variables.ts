@@ -21,10 +21,10 @@ export type MenuItem = {
 
 export const Conference = {
   name: 'PyCon JP 2026',
-  conferenceDateJa: '2026年08月21日-2026年08月22日 (カンファレンス)',
-  sprintDateJa: '2026年08月23日 (スプリント)',
-  conferenceDateEn: 'August 21-22, 2026 (Conference Days)',
-  sprintDateEn: 'August 23, 2026 (Sprint Day)',
+  conferenceDateJa: '2026年08月21日-2026年08月22日 カンファレンス',
+  sprintDateJa: '2026年08月23日 スプリント(仮)',
+  conferenceDateEn: 'August 21-22, 2026 Conference Days',
+  sprintDateEn: 'August 23, 2026 Sprint Day (tentative)',
   locationJa: '広島国際会議場',
   locationEn: 'International Conference Center Hiroshima',
 }
