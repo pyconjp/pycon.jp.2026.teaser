@@ -20,11 +20,11 @@ export type MenuItem = {
 // ここから下を編集する
 
 export const Conference = {
-  name: 'PyCon JP 2025',
-  conferenceDateJa: '2025年09月26日-2025年09月27日 (カンファレンス)',
-  sprintDateJa: '2025年09月28日 (スプリント)',
-  conferenceDateEn: 'September 26-27, 2025 (Conference Days)',
-  sprintDateEn: 'September 28, 2025 (Sprint Day)',
+  name: 'PyCon JP 2026',
+  conferenceDateJa: '2026年08月21日-2026年08月22日 (カンファレンス)',
+  sprintDateJa: '2026年08月23日 (スプリント)',
+  conferenceDateEn: 'August 21-22, 2026 (Conference Days)',
+  sprintDateEn: 'August 23, 2026 (Sprint Day)',
   locationJa: '広島国際会議場',
   locationEn: 'International Conference Center Hiroshima',
 }
@@ -38,46 +38,40 @@ export const Buttons: Button[] = [
   },
   {
     labelEn: 'Call for Proposals',
-    labelJa: 'プロポーザル募集\n詳しくは下のボタンから',
-    status: 'available',
-    links: [
-      {label: 'See More', url: 'https://pretalx.com/pycon-jp-2025/cfp'}
-    ],
+    labelJa: 'プロポーザル募集\n準備中です',
+    status: 'comingSoon',
+    links: null,
   },
   {
     labelEn: 'We need volunteers',
-    labelJa: '主催メンバー(スタッフ)募集\n詳しくは下のボタンから',
-    status: 'available',
-    links: [
-      {label: 'See More', url: 'https://pyconjp.blogspot.com/2024/12/call-for-organizing-members-ja.html'}
-    ],
+    labelJa: '主催メンバー(スタッフ)募集\n準備中です',
+    status: 'comingSoon',
+    links: null,
   },
   {
     labelEn: 'Please be our sponsor!',
-    labelJa: 'スポンサー募集\n詳しくは下のボタンから',
-    status: 'available',
-    links: [
-      {label: 'See More', url: 'https://docs.google.com/forms/d/e/1FAIpQLSfCVLHY3zMR1z7YGy8aRyJiSa64pnVpById6UjNDiwD5K0VmQ/viewform'}
-    ],
+    labelJa: 'スポンサー募集\n準備中です',
+    status: 'comingSoon',
+    links: null,
   },
 ]
 
 export const MenuItems: MenuItem[] = [
   {
     name: 'NEWS',
-    url: 'https://pyconjp.blogspot.com/search/label/pyconjp2025',
+    url: 'https://pyconjp.blogspot.com/search/label/pyconjp2026',
   },
   {
     name: 'VOLUNTEER',
-    url: 'https://pyconjp.blogspot.com/2024/12/call-for-organizing-members-ja.html',
+    url: null,
   },
   {
     name: 'PROPOSAL',
-    url: 'https://pretalx.com/pycon-jp-2025/cfp',
+    url: null,
   },
   {
     name: 'SPONSOR',
-    url: 'https://docs.google.com/forms/d/e/1FAIpQLSfCVLHY3zMR1z7YGy8aRyJiSa64pnVpById6UjNDiwD5K0VmQ/viewform',
+    url: null,
   },
   {
     name: 'TICKET',
