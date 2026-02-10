@@ -44,9 +44,14 @@ export const Buttons: Button[] = [
   },
   {
     labelEn: 'We need volunteers',
-    labelJa: '主催メンバー(スタッフ)募集\n準備中です',
-    status: 'comingSoon',
-    links: null,
+    labelJa: '主催メンバー(スタッフ)募集中です',
+    status: 'available',
+    links: [
+      {
+        url: 'https://docs.google.com/forms/d/e/1FAIpQLSdl0-Tx-zt5-jqvVAMMSU55WDD79gsmfLBtHW7W1BnwW4864Q/viewform',
+        label: 'Apply Now / 応募する'
+      }
+    ],
   },
   {
     labelEn: 'Please be our sponsor!',
