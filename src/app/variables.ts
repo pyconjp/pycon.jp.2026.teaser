@@ -43,7 +43,7 @@ export const Buttons: Button[] = [
     links: [
       {
         url: 'https://pretalx.com/pyconjp2026/cfp',
-        label: 'More Info / 詳細はこちら',
+        label: 'Apply Now / 応募する',
       }
     ],
   },
