@@ -38,9 +38,14 @@ export const Buttons: Button[] = [
   },
   {
     labelEn: 'Call for Proposals',
-    labelJa: 'プロポーザル募集\n準備中です',
-    status: 'comingSoon',
-    links: null,
+    labelJa: 'プロポーザル募集中です',
+    status: 'available',
+    links: [
+      {
+        url: 'https://pretalx.com/pyconjp2026/cfp',
+        label: 'Apply Now / 応募する',
+      }
+    ],
   },
   {
     labelEn: 'We need volunteers',
