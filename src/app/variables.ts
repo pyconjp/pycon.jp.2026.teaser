@@ -60,9 +60,14 @@ export const Buttons: Button[] = [
   },
   {
     labelEn: 'Please be our sponsor!',
-    labelJa: 'スポンサー募集\n準備中です',
-    status: 'comingSoon',
-    links: null,
+    labelJa: 'スポンサー募集中です',
+    status: 'available',
+    links: [
+      {
+        url: 'https://docs.google.com/forms/d/e/1FAIpQLScpX8QCcCZBn6KC2ggU4JMFghBhpxtXIN3Wr-jPiFJXRxag0g/viewform',
+        label: 'Apply Now / 応募する'
+      }
+    ],
   },
 ]
 
