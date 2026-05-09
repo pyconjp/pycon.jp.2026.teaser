@@ -32,9 +32,14 @@ export const Conference = {
 export const Buttons: Button[] = [
   {
     labelEn: 'Tickets',
-    labelJa: '参加チケット\n準備中です',
-    status: 'comingSoon',
-    links: null,
+    labelJa: '参加チケット\n販売中です',
+    status: 'available',
+    links: [
+      {
+        url: 'https://pyconjp.connpass.com/event/391006/',
+        label: 'Buy Tickets / チケットを購入する',
+      }
+    ],
   },
   {
     labelEn: 'Call for Proposals',
