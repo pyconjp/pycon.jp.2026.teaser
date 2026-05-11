@@ -7,9 +7,17 @@ import {Conference, MenuItems} from "@/app/variables";
 import {useContext} from "react";
 import {faBars, faXmark} from "@fortawesome/free-solid-svg-icons";
 import menuContext from "@/app/context/menuContext";
+import {usePathname} from "next/navigation";
 
 export default function Header() {
   const {isMenuOpen, setIsMenuOpen} = useContext(menuContext);
+  const pathname = usePathname();
+  const isEn = pathname?.startsWith('/en');
+  const menuItems = MenuItems.map(item =>
+    item.name === 'CODE OF CONDUCT'
+      ? {...item, url: isEn ? '/en/coc' : '/ja/coc'}
+      : item
+  );
 
   return (
     <header className='z-10 sticky'>
@@ -19,10 +27,10 @@ export default function Header() {
         </div>
         <nav className='lg:flex hidden items-center w-4/6'>
           <ul className={`flex justify-between w-full ${styles.headerString}`}>
-            {MenuItems.map((item, index) => {
+            {menuItems.map((item, index) => {
               return (
                 <li key={index}>
-                  {item.url ? <a href={item.url} target='_blank' rel="noopener noreferrer">{item.name}</a> :
+                  {item.url ? <a href={item.url} {...(item.url.startsWith('/') ? {} : {target: '_blank', rel: 'noopener noreferrer'})}>{item.name}</a> :
                     <span className='cursor-default opacity-50'>{item.name}</span>}
                 </li>
               )
@@ -52,9 +60,9 @@ export default function Header() {
           <nav className='mt-20 mx-14 py-1 bg-secondary-50 rounded shadow'>
             <ul className='flex items-center text-center flex-col gap-4'>
               {
-                MenuItems.map((item, index) => (
+                menuItems.map((item, index) => (
                   <li key={index}>
-                    {item.url ? <a href={item.url} target='_blank' rel="noopener noreferrer">{item.name}</a> :
+                    {item.url ? <a href={item.url} {...(item.url.startsWith('/') ? {} : {target: '_blank', rel: 'noopener noreferrer'})}>{item.name}</a> :
                       <span className='cursor-default opacity-50'>{item.name}</span>}
                   </li>
                 ))
