@@ -17,7 +17,7 @@ export default function SubSection() {
       >
         {
           Buttons.map((button, index) => (
-            <div className="mt-10 lg:mt-0 flex flex-col items-center justify-items-center justify-center content-center" key={index}>
+            <div className="mt-10 lg:mt-0 flex flex-col items-center justify-items-center justify-center content-center sm:[&:last-child:nth-child(odd)]:col-span-2" key={index}>
               <div className="mb-4">
                 <p className="pt-5 text-2xl text-center whitespace-break-spaces">{button.labelEn}</p>
                 <p className="pt-2 text-sm text-center whitespace-break-spaces">{button.labelJa}</p>
