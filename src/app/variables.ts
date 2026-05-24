@@ -74,6 +74,21 @@ export const Buttons: Button[] = [
       }
     ],
   },
+  {
+    labelEn: 'Travel Support Applications',
+    labelJa: '遠方支援の申し込み受付中です',
+    status: 'available',
+    links: [
+      {
+        url: 'https://pyconjp.blogspot.com/2026/05/travel-grant-2026-ja.html',
+        label: '応募する (日本語)',
+      },
+      {
+        url: 'https://pyconjp.blogspot.com/2026/05/travel-grant-2026-en.html',
+        label: 'Apply Now (English)',
+      },
+    ],
+  },
 ]
 
 export const MenuItems: MenuItem[] = [
