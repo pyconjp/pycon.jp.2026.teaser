@@ -43,8 +43,8 @@ export const Buttons: Button[] = [
   },
   {
     labelEn: 'Call for Proposals',
-    labelJa: 'プロポーザル募集中です',
-    status: 'available',
+    labelJa: 'プロポーザル募集は\n終了しました',
+    status: 'closed',
     links: [
       {
         url: 'https://pretalx.com/pyconjp2026/cfp',
@@ -86,6 +86,17 @@ export const Buttons: Button[] = [
       {
         url: 'https://pyconjp.blogspot.com/2026/05/travel-grant-2026-en.html',
         label: 'Apply Now (English)',
+      },
+    ],
+  },
+  {
+    labelEn: 'Community Booth Applications',
+    labelJa: 'コミュニティブース\n出展募集中です',
+    status: 'available',
+    links: [
+      {
+        url: 'https://docs.google.com/forms/d/e/1FAIpQLSf3bUlEnEvTg9I-TZrn4BQUApW-9lOop9NPdM3MliKWyMFddA/viewform',
+        label: 'Apply Now / 応募する',
       },
     ],
   },
