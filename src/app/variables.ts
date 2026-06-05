@@ -109,7 +109,7 @@ export const MenuItems: MenuItem[] = [
   },
   {
     name: 'VOLUNTEER',
-    url: null,
+    url: 'https://docs.google.com/forms/d/e/1FAIpQLSdl0-Tx-zt5-jqvVAMMSU55WDD79gsmfLBtHW7W1BnwW4864Q/viewform',
   },
   {
     name: 'PROPOSAL',
@@ -117,11 +117,11 @@ export const MenuItems: MenuItem[] = [
   },
   {
     name: 'SPONSOR',
-    url: null,
+    url: 'https://docs.google.com/forms/d/e/1FAIpQLScpX8QCcCZBn6KC2ggU4JMFghBhpxtXIN3Wr-jPiFJXRxag0g/viewform',
   },
   {
     name: 'TICKET',
-    url: null,
+    url: 'https://pyconjp.connpass.com/event/391006/',
   },
   {
     name: 'REVIEWER',
