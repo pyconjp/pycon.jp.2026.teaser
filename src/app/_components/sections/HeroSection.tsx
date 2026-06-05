@@ -1,8 +1,10 @@
 import BackgroundImages from "@/app/_components/organisms/BackgroundImages";
 import styles from '@/styles/HeroSection.module.scss';
-import {Conference} from "@/app/variables";
+import {Buttons, Conference} from "@/app/variables";
 
 export default function HeroSection() {
+  const ticket = Buttons.find(button => button.labelEn === 'Tickets' && button.status === 'available');
+
   return (
     <div className='relative h-[calc(100vh_-_64px)]'>
       <BackgroundImages/>
@@ -31,6 +33,18 @@ export default function HeroSection() {
           <p>{Conference.sprintDateJa}</p>
           <p>{Conference.locationJa}</p>
         </div>
+        {ticket && ticket.links && (
+          <div className='z-10 mt-8'>
+            <a
+              href={ticket.links[0].url}
+              className='text-white bg-primary border border-white rounded-full en-regular-font hover:opacity-80 transition-opacity inline-block h-12 w-[280px] py-3 text-center'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <span>{ticket.links[0].label}</span>
+            </a>
+          </div>
+        )}
       </div>
 
       <div className="absolute bottom-10 right-0 left-0 m-auto">
