@@ -1,5 +1,5 @@
 import LinkButton from "@/app/_components/elements/LinkButton";
-import {KeynoteLink, Keynotes} from "@/app/variables";
+import {KeynoteLinks, Keynotes} from "@/app/variables";
 
 export default function KeynoteSubSection() {
   return (
@@ -26,14 +26,14 @@ export default function KeynoteSubSection() {
       </div>
 
       {
-        KeynoteLink !== null && (
+        KeynoteLinks.length > 0 && (
           <div className="mt-10">
             <LinkButton
               button={{
                 labelEn: 'Keynote',
                 labelJa: '基調講演',
                 status: 'available',
-                links: [KeynoteLink],
+                links: KeynoteLinks,
               }}
             />
           </div>

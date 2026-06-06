@@ -48,13 +48,19 @@ export const Keynotes: Keynote[] = [
   },
 ]
 
-export const KeynoteLink: {
+export const KeynoteLinks: {
   url: string,
   label: string,
-} | null = {
-  url: "https://pyconjp.blogspot.com/2026/06/2026-keynote-ja.html",
-  label: "Read More / 詳細を見る",
-}
+}[] = [
+  {
+    url: "https://pyconjp.blogspot.com/2026/06/2026-keynote-ja.html",
+    label: "詳細を見る (日本語)",
+  },
+  {
+    url: "https://pyconjp.blogspot.com/2026/06/2026-keynote-en.html",
+    label: "Read More (English)",
+  },
+]
 
 export const Buttons: Button[] = [
   {
