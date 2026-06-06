@@ -17,6 +17,12 @@ export type MenuItem = {
   url: string | null,
 }
 
+export type Keynote = {
+  nameEn: string,
+  nameJa: string,
+  image: string,
+}
+
 // ここから下を編集する
 
 export const Conference = {
@@ -27,6 +33,27 @@ export const Conference = {
   sprintDateEn: 'August 23, 2026 Sprint Day (tentative)',
   locationJa: '広島国際会議場',
   locationEn: 'International Conference Center Hiroshima',
+}
+
+export const Keynotes: Keynote[] = [
+  {
+    nameEn: 'Carol Willing',
+    nameJa: 'キャロル・ウィリング',
+    image: '/carol_willing.png',
+  },
+  {
+    nameEn: 'Takashi Kitao',
+    nameJa: '北尾 崇',
+    image: '/takashi_kitao.jpg',
+  },
+]
+
+export const KeynoteLink: {
+  url: string,
+  label: string,
+} | null = {
+  url: "https://pyconjp.blogspot.com/2026/06/2026-keynote-ja.html",
+  label: "Read More / 詳細を見る",
 }
 
 export const Buttons: Button[] = [
