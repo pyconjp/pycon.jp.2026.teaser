@@ -4,6 +4,8 @@ import {KeynoteLinks, Keynotes} from "@/app/variables";
 export default function KeynoteSubSection() {
   return (
     <div className="flex flex-col items-center">
+      <p className="text-xl mb-10 text-center">Keynote Speakers</p>
+
       <div
         className="grid lg:grid-cols-2 grid-cols-1 mx-auto gap-x-32 gap-y-12 w-4/6 sm:grid-cols-2 justify-items-center"
       >
@@ -13,6 +15,7 @@ export default function KeynoteSubSection() {
               className="flex flex-col items-center justify-center sm:[&:last-child:nth-child(odd)]:col-span-2"
               key={index}
             >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={keynote.image}
                 alt={keynote.nameEn}
