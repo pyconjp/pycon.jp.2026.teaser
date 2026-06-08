@@ -134,8 +134,8 @@ export const Buttons: Button[] = [
     ],
   },
   {
-    labelEn: 'Nursery',
-    labelJa: '託児所',
+    labelEn: 'Nursery (Free)',
+    labelJa: '託児所(無料)',
     status: 'comingSoon',
     links: null,
   },
