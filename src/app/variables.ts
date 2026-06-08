@@ -133,6 +133,12 @@ export const Buttons: Button[] = [
       },
     ],
   },
+  {
+    labelEn: 'Nursery',
+    labelJa: '託児所',
+    status: 'comingSoon',
+    links: null,
+  },
 ]
 
 export const MenuItems: MenuItem[] = [
