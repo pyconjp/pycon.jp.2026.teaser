@@ -25,7 +25,11 @@ export default function HeroSection() {
           </div>
           <div className='flex lg:flex-row flex-col justify-between mt-2'>
             <p>Venue:&nbsp;</p>
-            <p>{Conference.locationEn}</p>
+            <p>{Conference.conferenceLocationEn}</p>
+          </div>
+          <div className='flex lg:flex-row flex-col justify-between'>
+            <p/>
+            <p>{Conference.sprintLocationEn}</p>
           </div>
         </div>
         <div className='pt-4 z-10 lg:text-sm text-xs'>
